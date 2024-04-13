@@ -20,3 +20,26 @@ ans: Disadvantages of CSS are given below:
      Browser Compatibility: Some style selectors are supported and some are not. We have to determine which style is supported or not using the @support selector).
      Cross Browser issue: Some selectors behave differently in a different browser).
      There is no parent selector: Currently, Using CSS, you can’t select a parent tag. */
+
+/* 4. How to include CSS in the webpage?
+
+ans: 1 - External Style Sheet (<link rel="stylesheet" type="text/css" href="mystyles.css" />)
+     2 - Embed CSS with a style tag (<style></style>)
+     3 - Add inline styles to HTML elements (<h2 style="color:red;background:black">Inline Style</h2>)
+     4 - Import a stylesheet file (4 - Import a stylesheet file) */
+
+/* 5. What are the different types of Selectors in CSS?   
+
+ans:  Universal Selector (*)
+      Element Type Selector (ul)  
+      ID Selector (#)
+      Class Selector (.)
+      Child Combinator (#container > .box)
+      General Sibling Combinator (~)
+      Adjacent Sibling Combinator (+)
+      Attribute Selector (input) */
+
+/* 6. What is VH/VW (viewport height/ viewport width) in CSS?     
+
+ans: It’s a CSS unit used to measure the height and width in percentage with respect to the viewport.
+     It is used mainly in responsive design techniques (1vh - 10px) (1/100 - 1000px) */
