@@ -41,3 +41,49 @@
 // ans: NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
 //      typeof of NaN will return a Number.
 //      To check if a value is NaN, we use the isNaN() function,
+
+// 7. Is javascript a statically typed or a dynamically typed language?
+
+// ans: JavaScript is a dynamically typed language. In a dynamically typed language,
+//      the type of a variable is checked during run-time in contrast to a statically typed language,
+//      where the type of a variable is checked during compile-time
+
+// 8.What is an Immediately Invoked Function in JavaScript?
+
+// ans: An Immediately Invoked Function ( known as IIFE and pronounced as IIFY) is a function that runs as soon as it is defined.
+//      Syntax of IIFE :
+
+//      (function(){
+//         // Do something;
+//      })();
+
+// 9. Explain passed by value and passed by reference.
+
+// ans:JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
+
+//     Pass by Value :
+//     JavaScript is primarily a “pass by value” language. But what does this mean?
+
+//     Pass by value means when a variable is assigned to another variable, the value stored in the variable is copied into the new variable.
+//     They are independent of each other, each occupying its own memory space.
+
+//     let a = 10;
+//     let b = a;
+
+//      a = 20;
+
+//     console.log(a); // Outputs: 20
+//     console.log(b); // Outputs: 10
+
+//     Pass by Reference :
+//    While JavaScript is primarily a “pass by value” language, it uses a concept called “pass by reference” when dealing with objects (including arrays and functions).
+//    When an object is created in JavaScript, it is stored in a memory space,
+//    and the variable associated with it stores the memory address or reference where the object is stored.
+
+//    let obj1 = { value: 10 };
+//    let obj2 = obj1;
+
+//     obj1.value = 20;
+
+//     console.log(obj1.value); // Outputs: 20
+//     console.log(obj2.value); // Outputs: 20
