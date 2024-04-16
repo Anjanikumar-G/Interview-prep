@@ -87,3 +87,26 @@
 
 //     console.log(obj1.value); // Outputs: 20
 //     console.log(obj2.value); // Outputs: 20
+
+// 10.what is difference between let const and var in javascript ?
+
+//  ans: var
+//       This is the oldest keyword for declaring variables in JavaScript. It is function-scoped, which means it can be re-declared and updated.
+//       let
+//       This is an improved version of var. It is block-scoped, which means it can only be updated, not re-declared.
+//       const
+//       This is also block-scoped like let, but it cannot be updated or re-declared
+
+// 11.what is callback function in javascript
+
+// ans: A callback function is a function that is passed as an argument to another function.The purpose of a callback function is to execute code after another function has finished executing
+
+// 12.What is an Immediately Invoked Function in JavaScript?
+
+// ans: An Immediately Invoked Function ( known as IIFE and pronounced as IIFY) is a function that runs as soon as it is defined.
+
+//      Syntax of IIFE :
+
+//      (function(){
+//      // Do something;
+//      })();

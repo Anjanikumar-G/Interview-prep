@@ -60,3 +60,40 @@ ans:Block Element: The block elements always start on a new line. They will also
 ans:It’s most important to test a website in different browsers when you’re first designing it, 
      or when making major changes. However, it’s also important to repeat these tests periodically, 
     since browsers go through a lot of updates and changes. */
+
+/* 10. what does media query do in css
+
+ans: allows you to apply CSS styles based on different device types, or other characteristics such as screen resolution, orientation, or user preferences */
+
+/* 11. What are Pseudo elements and Pseudo classes?
+
+ans: Pseudo-elements allows us to create items that do not normally exist in the document tree, for example ::after.
+
+::before
+::after
+::first-letter
+::first-line
+::selection
+In the below example, the color will appear only on the first line of the paragraph.
+
+p: :first-line {
+	color: #ffOOOO;
+	font-variant: small-caps;
+}
+    Pseudo-classes select regular elements but under certain conditions like when the user is hovering over the link.
+
+:link
+:visited
+:hover
+:active
+:focus
+Example of the pseudo-class, In the below example, the color applies to the anchor tag when it’s hovered.
+
+/* mouse over link */
+/* a:hover {
+	color: #FFOOFF;
+}  */
+
+/* 12.Does margin-top or margin-bottom have an effect on inline elements?
+
+ans: No, it doesn’t affect the inline elements. Inline elements flow with the contents of the page */
