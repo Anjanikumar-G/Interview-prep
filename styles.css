@@ -97,3 +97,23 @@ Example of the pseudo-class, In the below example, the color applies to the anch
 /* 12.Does margin-top or margin-bottom have an effect on inline elements?
 
 ans: No, it doesn’t affect the inline elements. Inline elements flow with the contents of the page */
+
+/* 13.What is the CSS display property used for?
+
+ans:The CSS display property is used to control how an element is rendered on the page.
+     It defines the display behavior of an element - whether it should be treated as a block-level element, an inline element, or other display types like flex or grid  */
+
+/* 14.What are the CSS frameworks?
+
+ ans: CSS frameworks are the preplanned libraries which make easy and more standard compliant web page styling. The frequently used CSS frameworks are: -
+
+     Bootstrap
+     Foundation
+     Semantic UI
+     Gumby
+     Ulkit */
+
+/* 15.What is RWD?
+
+ans:RWD stands for Responsive Web Design. This technique is used to display the designed page perfectly on every screen size and device,
+    for example, mobile, tablet, desktop and laptop. You don't need to create a different page for each device  */
