@@ -115,5 +115,25 @@ ans:The CSS display property is used to control how an element is rendered on th
 
 /* 15.What is RWD?
 
+
 ans:RWD stands for Responsive Web Design. This technique is used to display the designed page perfectly on every screen size and device,
     for example, mobile, tablet, desktop and laptop. You don't need to create a different page for each device  */
+
+/* 16. Can you name the four types of @media properties?
+
+ans:The four types of @media properties are:
+
+    All → It’s the default property. Used for all media-type devices.
+    Screen → Used for computer screen, mobile screen.
+    Print → Used for printers.
+    Speech → Used for screen readers  */
+
+/* 17.What is the grid system?
+
+ans:CSS Grid Layout is the most powerful layout system available in CSS. 
+    It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system  */
+
+/* 18. Difference between CSS grid vs flexbox?
+
+ans: CSS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows. Grid layout is intended for larger-scale layouts which aren’t linear in design.
+     Flexbox is largely a one-dimensional system (either in a column or a row). Flexbox layout is most appropriate to the components of an application */
